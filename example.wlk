@@ -10,5 +10,9 @@ object pepita {
   method comerAlpiste(grams) { // Indicacion.
     energy = energy + grams * 2
   }  
+
+  method beberAgua(water) { //Indicacion.
+    energy = energy + water * 2
+  }
 }
 
